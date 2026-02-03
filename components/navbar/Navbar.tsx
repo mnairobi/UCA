@@ -19,10 +19,10 @@ const Navbar = () => {
                   <div className="">
                       <Link href = "/">
                           <Image 
-                              src = "/partylogo.jpeg"
+                              src = "/schoollogo.png"
                               width={300}
                               height={300}
-                              alt="Party Logo"
+                              alt="School Logo"
                               className="rounded-2xl h-16 md:h-20 lg:h-24 w-16 md:w-20 lg:w-24"
                           />
                       </Link>
