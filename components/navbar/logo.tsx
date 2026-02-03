@@ -1,51 +1,39 @@
 "use client";
 
-import { Playwrite_IN } from "next/font/google"
-
 import Image from "next/image";
 import Link from "next/link";
+import { Montserrat } from "next/font/google";
 
-
-const font = Playwrite_IN({
-    });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"], // normal/medium/semibold
+});
 
 const Logo = () => {
   return (
-    <div className="flex items-center gap-3">
-        {/* logo */}
-        <div className="">
-            <Link href = "/">
-                <Image 
-                    src = "/uca.png"
-                    width={800}
-                    height={800}
-                    alt="school Logo"
-                    className="h-14 w-14 p-1 md:h-16  md:w-16 lg:h-24 lg:w-24"
-                />
-            </Link>
-            
-        </div>
-        {/* flag */}
-        {/* <div>
-            <div className="flex flex-col items-center">
-                <div className="w-1 h-3 lg:h-4 bg-black"></div>
-                <div className="w-1 h-1 lg:h-2 bg-white"></div>
-                <div className="w-1 h-3 lg:h-4 bg-red-700"></div>
-                <div className="w-1 h-1 lg:h-2 bg-white"></div>
-                <div className="w-1 h-3 lg:h-4 bg-green-600"></div>
-            </div>
-        </div> */}
-        {/* lg screens */}
-        <div className="hidden lg:flex">
-            <p>#mutdecides2026</p>
-        </div>
+    <Link href="/" className="flex items-center gap-2 sm:gap-3 min-w-0">
+      <Image
+        src="/uca.png"
+        width={800}
+        height={800}
+        alt="School Logo"
+        className="h-12 w-12 p-1 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 shrink-0"
+        priority
+      />
 
-        {/* <=sm screens */}
-        <div className="lg:hidden">
-            <p className = {`${font.className} antialiased text-sm`}>#mut<br />decides2025</p>
-        </div>
-    </div>
-  )
-}
+      <div className={`${montserrat.className} flex flex-col min-w-0 leading-tight`}>
+        {/* Party name */}
+        <p className="font-semibold text-[12px] sm:text-sm md:text-base lg:text-lg text-black whitespace-normal break-words">
+          UNITED COMRADES ALLIANCE
+        </p>
 
-export default Logo
+        {/* Slogan (same font, smaller + less bold) */}
+        <p className="font-normal text-[11px] sm:text-xs md:text-sm text-gray-700 whitespace-normal break-words">
+          One MUT, One Voice
+        </p>
+      </div>
+    </Link>
+  );
+};
+
+export default Logo;

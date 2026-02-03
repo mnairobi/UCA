@@ -3,8 +3,10 @@
 import { useState, useEffect } from "react";
 
 interface CountdownProps {
-  targetDate: string; 
+  targetDate: string;
 }
+
+const pad2 = (n: number) => String(n).padStart(2, "0");
 
 const CountdownTimer: React.FC<CountdownProps> = ({ targetDate }) => {
   const [timeLeft, setTimeLeft] = useState({
@@ -14,10 +16,10 @@ const CountdownTimer: React.FC<CountdownProps> = ({ targetDate }) => {
     seconds: 0,
   });
 
-  const [hasMounted, setHasMounted] = useState(false); // State to track client-side rendering
+  const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
-    setHasMounted(true); // Set to true after the first render
+    setHasMounted(true);
 
     const calculateTimeLeft = () => {
       const difference = new Date(targetDate).getTime() - new Date().getTime();
@@ -31,43 +33,50 @@ const CountdownTimer: React.FC<CountdownProps> = ({ targetDate }) => {
       };
     };
 
-    setTimeLeft(calculateTimeLeft()); 
+    setTimeLeft(calculateTimeLeft());
 
-    const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-
+    const timer = setInterval(() => setTimeLeft(calculateTimeLeft()), 1000);
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  if (!hasMounted) return null; // Prevent rendering until after client-side mount
+  if (!hasMounted) return null;
 
   return (
-    <div className="flex flex-col items-center bg-transparent text-white p-3 lg:p-6 rounded-lg shadow-md max-w-full overflow-hidden">
-      <div className="flex items-center gap-3">
-        <p className="w-4 h-4 bg-amber-600 mb-2 rounded-full animate-ping"></p>
-        <h2 className="text-2xl text-primary font-bold mb-2">Election Countdown</h2>
+    <div className="w-full text-white">
+      {/* Header */}
+      <div className="flex items-center justify-center sm:justify-start gap-2">
+        <span className="relative flex h-2.5 w-2.5">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
+          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-400" />
+        </span>
+
+        <h2 className="text-sm sm:text-base font-semibold text-white">
+          Election Countdown
+        </h2>
       </div>
-      <div className="flex space-x-3 lg:space-x-4 text-center">
-        <div className="p-4 bg-primary rounded-md">
-          <span className="text-xl sm:text-2xl md:text-3xl font-bold">{timeLeft.days < 10 ? "0" + timeLeft.days : timeLeft.days}</span>
-          <p className="text-sm">Days</p>
-        </div>
-        <div className="p-4 bg-primary rounded-md">
-          <span className="text-xl sm:text-2xl md:text-3xl font-bold">{timeLeft.hours < 10 ? "0" + timeLeft.hours : timeLeft.hours}</span>
-          <p className="text-sm">Hours</p>
-        </div>
-        <div className="p-4 bg-primary rounded-md">
-          <span className="text-xl sm:text-2xl md:text-3xl font-bold">{timeLeft.minutes < 10 ? "0" + timeLeft.minutes : timeLeft.minutes}</span>
-          <p className="text-sm">Minutes</p>
-        </div>
-        <div className="p-4 bg-primary rounded-md">
-          <span className="text-xl sm:text-2xl md:text-3xl font-bold">{timeLeft.seconds < 10 ? "0" + timeLeft.seconds : timeLeft.seconds}</span>
-          <p className="text-sm">Seconds</p>
-        </div>
+
+      {/* Tiles: 2 cols on mobile, 4 cols on sm+ */}
+      <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 w-full">
+        <TimeBox label="Days" value={String(timeLeft.days)} />
+        <TimeBox label="Hours" value={pad2(timeLeft.hours)} />
+        <TimeBox label="Minutes" value={pad2(timeLeft.minutes)} />
+        <TimeBox label="Seconds" value={pad2(timeLeft.seconds)} />
       </div>
     </div>
   );
 };
+
+function TimeBox({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="min-w-0 rounded-xl bg-white/10 border border-white/15 px-3 py-2 sm:px-4 sm:py-3 text-center">
+      <div className="text-2xl sm:text-3xl font-bold tabular-nums leading-none truncate">
+        {value}
+      </div>
+      <div className="mt-1 text-[11px] sm:text-xs text-white/80">
+        {label}
+      </div>
+    </div>
+  );
+}
 
 export default CountdownTimer;
