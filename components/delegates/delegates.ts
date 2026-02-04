@@ -55,7 +55,7 @@ const delegateItems = [
         name: "Mohammed",
     },
      {
-        image: "MurithiEEE.jpeg",
+        image: "murithiEEE.jpeg",
         school: "Engineering and Technology",
         name: "Murithi",
     },
