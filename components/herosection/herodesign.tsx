@@ -83,43 +83,11 @@ const Gang = () => {
           </div>
         </div>
 
-        {/* CTAs (full width on mobile) */}
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <Button asChild className="w-full sm:w-auto">
-            <Link href="/delegates">Meet the Delegates</Link>
-          </Button>
+       
 
-          <Button variant="outline" asChild className="w-full sm:w-auto">
-            <Link href="/#agenda">Read Our Agenda</Link>
-          </Button>
-        </div>
+      
 
-        {/* Quick points */}
-        <div className="grid gap-2 sm:grid-cols-2 text-xs sm:text-sm text-gray-700">
-          <p className="rounded-lg bg-white/70 border p-2.5 sm:p-3">
-            <span className="font-semibold text-primary">Accountability:</span>{" "}
-            clear progress updates.
-          </p>
-          <p className="rounded-lg bg-white/70 border p-2.5 sm:p-3">
-            <span className="font-semibold text-primary">Service:</span> student
-            issues, handled fast.
-          </p>
-          <p className="rounded-lg bg-white/70 border p-2.5 sm:p-3">
-            <span className="font-semibold text-primary">Inclusion:</span> every
-            school represented.
-          </p>
-          <p className="rounded-lg bg-white/70 border p-2.5 sm:p-3">
-            <span className="font-semibold text-primary">Results:</span> practical
-            solutions, not noise.
-          </p>
-        </div>
-
-        {/* Slogan */}
-        <h3
-          className={`${font.className} text-center sm:text-left text-base sm:text-xl text-primary`}
-        >
-          Vote for the change you deserve.
-        </h3>
+  
       </div>
     </div>
   );

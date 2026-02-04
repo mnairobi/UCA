@@ -1,21 +1,28 @@
-import { Eye, Lightbulb, Rocket } from "lucide-react";
+import { Handshake, Eye, Rocket, Lightbulb } from "lucide-react";
 
 const visionItems = [
-    {
-        label: "vision",
-        icon: Eye,
-        description: "To lead a united and empowered student body."
-    },
-    {
-        label: "Mision",
-        icon: Rocket,
-        description: "To empower, unite and uplift our students."
-    },
-    {
-        label: "Slogan",
-        icon: Lightbulb,
-        description: "United in strength, driven by purpose."
-    },
-]
+  {
+    label: "Values",
+    icon: Handshake,
+    description: "Unity • Service • Progress",
+  },
+  {
+    label: "Vision",
+    icon: Eye,
+    description:
+      "A United MUT where every Comrade feels represented, protected & empowered.",
+  },
+  {
+    label: "Mission",
+    icon: Rocket,
+    description:
+      "To provide inclusive, accountable and people-centered leadership that prioritizes student welfare & unity.",
+  },
+  {
+    label: "Party Slogan",
+    icon: Lightbulb,
+    description: "One MUT, One Voice.",
+  },
+];
 
-export { visionItems }
+export { visionItems };

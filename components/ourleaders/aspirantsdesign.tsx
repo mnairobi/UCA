@@ -10,77 +10,77 @@ const AspirantsDesign = () => {
       name: "Hon Billy",
       post: "Party leader",
       partyPost: "Chairman",
-      image: "/aspirants/aspirantpartyleader.jpeg",
+      image: "/aspirants/pl.jpeg",
       message: "Empowering voices, driving change and building a better MUT together."
     },
     {
-      name: "Mwalimu Jonte",
+      name: "Moha",
       post: "Deputy party leader",
       partyPost: "Deputy",
-      image: "/aspirants/aspirantdeputycampaigner.jpeg",
+      image: "/aspirants/dpl.jpeg",
       message: "Together, we can bring change that benefits every student, every day!"
     },
     {
-      name: "Brenda Kangacha",
+      name: "FAYZAL KE",
       post: "Party Treasurer",
       partyPost: "Treasurer",
-      image: "/aspirants/aspiranttreasurer.jpeg",
+      image: "/aspirants/tresurer.jpeg",
       message: "Transparency, Accountability, and Growth!."
     },
     {
-      name: "Chief Peterson",
+      name: "Olwande",
       post: "Chief Campaigner",
       partyPost: "Campaigner",
-      image: "/aspirants/aspirantchiefcampaigner.jpeg",
+      image: "/aspirants/cc.jpeg",
       message: "This is more than just a campaign—it is a movement!"
     },
     {
-      name: "Hon Ronny Ian",
+      name: "Yussuf",
       post: "Presidential Aspirant",
       partyPost: "President",
-      image: "/aspirants/aspirantpresident.jpeg",
+      image: "/aspirants/president.jpeg",
       message: "I stand before you not just as a candidate, but as a fellow student who believes in the power of unity, progress, and real change."
     },
     {
-      name: "Faiza Ibrahim",
+      name: "Yvonne",
       post: "Running mate",
       partyPost: "Vice president",
-      image: "/aspirants/aspirantvicepresident.jpeg",
+      image: "/aspirants/vp.jpeg",
       message: "Committed to Service, Dedicated to You!"
     },
     {
-      name: "Lewis Munene",
+      name: "Desmond Soi",
       post: "Seretary General",
       partyPost: "Secretary",
-      image: "/aspirants/aspirantsecgen.jpeg",
+      image: "/aspirants/secgen.jpeg",
       message: "Your Voice, Our Commitment!"
     },
     {
-      name: "Yusuf Mugane",
+      name: "Emmanuel kobia",
       post: "Finance Minister",
       partyPost: "Finance",
-      image: "/aspirants/aspirantfinanceminister.jpeg",
+      image: "/aspirants/finance.jpeg",
       message: "Financial Integrity for a Better Tomorrow"
     },
     {
-      name: "Tabitha Mwangi",
+      name: "Prisca Mbodze",
       post: "Academics Minister",
       partyPost: "Academics",
-      image: "/aspirants/aspirantacademics.jpeg",
+      image: "/aspirants/academics.jpeg",
       message: "Empowering Minds, Elevating Standards!"
     },
     {
-      name: "Terresiah Wilson",
+      name: "Silvia Momanyi",
       post: "Accomodation Minister",
-      partyPost: "Academics",
-      image: "/aspirants/aspirantaccomodation.jpeg",
+      partyPost: "Accomodation",
+      image: "/aspirants/accomodation.jpeg",
       message: "Better Housing, Better Campus Life"
     },
     {
-      name: "Antony Mwangi",
+      name: "Davis Musau",
       post: "Sports Minister",
       partyPost: "Sports and Entertainment",
-      image: "/aspirants/aspirantsportsentertainment.jpeg",
+      image: "/aspirants/sports.jpeg",
       message: "Stronger Together, Champions Forever."
     },
   ];
