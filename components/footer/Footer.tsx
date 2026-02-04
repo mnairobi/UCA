@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="text-primary flex md:justify-center pb-3">
         <div className="pb-4">
           <Image
-            src="/partylogo.jpeg"
+            src="/uca.png"
             width={500}
             height={500}
             alt="logo"

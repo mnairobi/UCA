@@ -3,15 +3,10 @@
 import { useState, useCallback } from "react";
 import { AlignJustify } from "lucide-react";
 import Image from "next/image";
-
-import { Playwrite_IN } from "next/font/google"
 import { menuItems } from "./menu";
 import Link from "next/link";
 
 
-
-const font = Playwrite_IN({
-    });
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,13 +38,13 @@ export default function Sidebar() {
         <div className="">
           <div className="flex flex-col items-center justify-center py-3">
             <Image 
-              src = "/partylogo.jpeg"
+              src = "/uca.png"
               width={500}
               height={500}
               alt = "partylogo"
               className="h-32 w-32"
             />
-            <p className = {`${font.className} text-center`}>Vote Us Vote the Change you deserve.</p>
+            {/* <p>Vote Us Vote the Change you deserve.</p> */}
           </div>
           
           {/* menuItems */}

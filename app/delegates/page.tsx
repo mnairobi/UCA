@@ -11,7 +11,7 @@ const schools = [
   "All Schools",
   "Computing and IT",
   "Pure, Applied and Health Sciences",
-  // "Business and Economics",
+  "Business and Economics",
   "Agriculture and Environmental Sciences",
   "Engineering and Technology",
   "Hospitality and Tourism Management",

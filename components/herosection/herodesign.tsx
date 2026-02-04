@@ -17,7 +17,7 @@ const Gang = () => {
           {/* Keep image height reasonable on small screens */}
           <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-auto lg:h-full">
             <Image
-              src="/thegang.jpeg"
+              src="/umoja.jpeg"
               alt="Campaign team"
               priority
               fill
@@ -34,7 +34,7 @@ const Gang = () => {
           </div> */}
 
           {/* vote badge (smaller on mobile) */}
-          <div className="absolute right-2 top-2 sm:right-3 sm:top-3 rounded-xl bg-white/90 p-2 shadow">
+          {/* <div className="absolute right-2 top-2 sm:right-3 sm:top-3 rounded-xl bg-white/90 p-2 shadow">
             <Image
               height={56}
               width={56}
@@ -42,7 +42,7 @@ const Gang = () => {
               alt="Vote"
               className="h-10 w-10 sm:h-14 sm:w-14"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
