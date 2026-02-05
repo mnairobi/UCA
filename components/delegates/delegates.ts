@@ -389,6 +389,11 @@ const delegateItems = [
         school: "Hospitality and Tourism Management",
         name: "Patricia",
     },
+    {
+        image: "josephineEDU.jpeg",
+        school: "Education",
+        name: "Josephine",
+    },
 ]
 
 export  { delegateItems }
