@@ -94,7 +94,11 @@ const Gang = () => {
           </div>
         </div>
 
-       
+       <div className="flex flex-col sm:flex-row gap-3">
+  <Button asChild className="w-full sm:w-auto">
+    <Link href="/delegates">Meet the Delegates</Link>
+  </Button>
+</div>
 
       
 
