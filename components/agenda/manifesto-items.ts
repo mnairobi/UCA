@@ -68,6 +68,7 @@ const manifestoItems = [
     description:
       "• Off-campus & hostel security: advocate for improved security personnel presence and surveillance in hostels and surrounding areas.\n" +
       "• Improve street lighting along university ways and student residence areas.\n" +
+      "• Dignity & Flexibility: No student should be harassed over IDs. We will ensure the student portal is accepted as valid identification, and push for soft copy IDs to be accepted as gate passes—because your time and dignity matter.\n"+
       "• Establish faster reporting mechanisms for security threats and liaise with university security departments.\n" +
       "• Digital training: workshops on data security and ethical communication for student leaders; empower class representatives.\n" +
       "• Liaison with authorities: coordinate with administration and local law enforcement to address security breaches.\n" +
@@ -154,6 +155,12 @@ const manifestoItems = [
       "We will empower Class Representatives through structured facilitation, leadership training, mentorship, and capacity-building workshops.\nBy equipping them with the right skills, recognition, and support, we will strengthen communication between students and leadership and ensure every comrade is effectively represented.\nStrong class leadership builds a stronger student community.",
     icon: Users,
   },
+  {
+  title: "Dignity & Flexibility (ID Access)",
+  description:
+    "No student should be harassed over IDs. We will ensure the student portal is accepted as valid identification, and we will push for soft copy IDs to be accepted as gate passes—because your time and dignity matter.",
+  icon: IdCard,
+},
 ];
 
 export { manifestoItems };
