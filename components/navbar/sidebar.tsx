@@ -64,10 +64,20 @@ export default function Sidebar() {
               <div className="flex justify-center">
                 <Donate />
               </div> */}
-              <p className="fixed bottom-0 px-4 text-sm">Site developed by: <Link className="hover:text-[whitesmoke] transition text-blue-600" href = "https://www.linkedin.com/in/david-waweru-9040b7241/">David, </Link><Link className="hover:text-[whitesmoke] transition text-blue-600" href = "https://www.linkedin.com/in/nicholus-kiriinya-nkonge-data-scientist/">Nicholas and</Link> <Link className="hover:text-[whitesmoke] transition text-blue-600" href = "https://www.linkedin.com/in/kevin-njuguna-815098267/">Kevin</Link> </p>
+                            <p className="fixed bottom-0 px-4 text-sm">
+                Site developed by:{" "}
+                <a
+                  className="text-blue-600 hover:text-blue-700 transition"
+                  href="https://portfolio-klaus.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Klaus
+                </a>
+              </p>
+          
 
           </div>
-          
         </div>
 
         
