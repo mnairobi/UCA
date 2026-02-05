@@ -155,12 +155,7 @@ const manifestoItems = [
       "We will empower Class Representatives through structured facilitation, leadership training, mentorship, and capacity-building workshops.\nBy equipping them with the right skills, recognition, and support, we will strengthen communication between students and leadership and ensure every comrade is effectively represented.\nStrong class leadership builds a stronger student community.",
     icon: Users,
   },
-  {
-  title: "Dignity & Flexibility (ID Access)",
-  description:
-    "No student should be harassed over IDs. We will ensure the student portal is accepted as valid identification, and we will push for soft copy IDs to be accepted as gate passes—because your time and dignity matter.",
-  icon: IdCard,
-},
+
 ];
 
 export { manifestoItems };
