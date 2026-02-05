@@ -15,8 +15,8 @@ export const menuItems = [
         icon: <Telescope />
     },
     {
-        label: "Agenda",
-        link: "/#agenda",
+        label: "Manifesto",
+        link: "/#manifesto",
         icon: <ClipboardCheck />
     },
     {

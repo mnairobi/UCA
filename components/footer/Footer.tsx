@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4 mx-3">
             <Link href="/">Home</Link>
             <Link href="/#vision">About Us</Link>
-            <Link href="#agenda">Our Agenda</Link>
+            <Link href="#manifesto">Our Agenda</Link>
             <Link href="/delegates">Delegates</Link>
           </div>
         </div>
