@@ -9,8 +9,8 @@ export default function Home() {
    <main>
       <HeroSection />
       <VisionSection />
-      {/* <Agenda /> */}
       <AspirantsSection />
+      <Agenda />
       <Faq />
    </main>
   );

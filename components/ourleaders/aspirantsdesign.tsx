@@ -36,7 +36,7 @@ const AspirantsDesign = () => {
     },
     {
       name: "Yussuf",
-      post: "Presidential Aspirant",
+      post: "Presidential Candidate",
       partyPost: "President",
       image: "/aspirants/president.jpeg",
       message: "I stand before you not just as a candidate, but as a fellow student who believes in the power of unity, progress, and real change."

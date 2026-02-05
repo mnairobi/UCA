@@ -13,7 +13,7 @@ const Logo = () => {
   return (
     <Link href="/" className="flex items-center gap-2 sm:gap-3 min-w-0">
       <Image
-        src="/uca.png"
+        src="/ucaO.png"
         width={800}
         height={800}
         alt="School Logo"

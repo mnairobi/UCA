@@ -364,6 +364,31 @@ const delegateItems = [
         school: "Pure, Applied and Health Sciences",
         name: "Roy",
     },
+    {
+        image: "elyneHOS.png",
+        school: "Hospitality and Tourism Management",
+        name: "Elyne",
+    },
+    {
+        image: "ikramEDU.png",
+        school: "Education",
+        name: "Ikram",
+    },
+    {
+        image: "jamesEDU.png",
+        school: "Education",
+        name: "James",
+    },
+    // {
+    //     image: "khadijaCivil.png",
+    //     school: "Engineering and Technology",
+    //     name: "Khadija",
+    // },
+    {
+        image: "maylenHOS.png",
+        school: "Hospitality and Tourism Management",
+        name: "Patricia",
+    },
 ]
 
 export  { delegateItems }
