@@ -239,6 +239,131 @@ const delegateItems = [
         school: "Humanities and Social Sciences",
         name: "Vincent",
     },
+     {
+        image: "3annasticaENG.jpeg",
+        school: "Engineering and Technology",
+        name: "Annastica",
+    },
+     {
+        image: "3bethPUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Beth",
+    },
+     {
+        image: "3brainCS.jpeg",
+        school: "Computing and IT",
+        name: "Brain",
+    },
+     {
+        image: "3christinePUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Christine",
+    },
+     {
+        image: "3elishaEDU.jpeg",
+        school: "Education",
+        name: "Elisha",
+    },
+     {
+        image: "3emmanuelPUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Emmanuel",
+    },
+     {
+        image: "3fredrickPUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Fredrick",
+    },
+     {
+        image: "3gloriaPUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Gloria",
+    },
+     {
+        image: "3jollyCS.jpeg",
+        school: "Computing and IT",
+        name: "Jolly",
+    },
+     {
+        image: "3josephinePUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Josephine",
+    },
+     {
+        image: "3kithekaAGED.jpeg",
+        school: "Agriculture and Environmental Sciences",
+        name: "Kitheka",
+    },
+     {
+        image: "3martinIT.jpeg",
+        school: "Computing and IT",
+        name: "Martin",
+    },
+     {
+        image: "3najmaEDU.jpeg",
+        school: "Education",
+        name: "Najma",
+    },
+     {
+        image: "3patriciaCS.jpeg",
+        school: "Computing and IT",
+        name: "Patricia",
+    },
+     {
+        image: "3ramlaENG.jpeg",
+        school: "Engineering and Technology",
+        name: "Ramla",
+    },
+     {
+        image: "3saraTOU.jpeg",
+        school: "Engineering and Technology",
+        name: "Sara",
+    },
+     {
+        image: "3simonPUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Simon",
+    },
+     {
+        image: "3susanAGED.jpeg",
+        school: "Agriculture and Environmental Sciences",
+        name: "Susan",
+    },
+     {
+        image: "daudi3PUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Daudi",
+    },
+     {
+        image: "kelvin3PUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Kelvin",
+    },
+     {
+        image: "letowon3AGED.jpeg",
+        school: "Agriculture and Environmental Sciences",
+        name: "Letowon",
+    },
+     {
+        image: "mitchel3PUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Mitchel",
+    },
+     {
+        image: "onyango3PUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Onyango",
+    },
+     {
+        image: "rhoda3ENG.jpeg",
+        school: "Engineering and Technology",
+        name: "Rhoda",
+    },
+     {
+        image: "roy3PUR.jpeg",
+        school: "Pure, Applied and Health Sciences",
+        name: "Roy",
+    },
 ]
 
 export  { delegateItems }
