@@ -15,7 +15,7 @@ const Gang = () => {
       <div className="lg:col-span-6 min-w-0">
         <div className="relative overflow-hidden rounded-2xl border border-primary/15 bg-white shadow-sm">
           {/* Keep image height reasonable on small screens */}
-          <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-auto lg:h-full">
+          {/* <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-auto lg:h-full">
             <Image
               src="/umoja.jpeg"
               alt="Campaign team"
@@ -24,7 +24,18 @@ const Gang = () => {
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
               className="object-cover"
             />
-          </div>
+          </div> */}
+
+          <div className="relative w-full aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/3]">
+  <Image
+    src="/umoja.jpeg"
+    alt="Campaign team"
+    priority
+    fill
+    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
+    className="object-cover"
+  />
+</div>
 
           {/* overlay label */}
           {/* <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent p-3 sm:p-4">
@@ -50,7 +61,7 @@ const Gang = () => {
       <div className="lg:col-span-6 flex flex-col gap-4 sm:gap-5 min-w-0">
         {/* Badge */}
         <div className="w-fit rounded-full border border-primary/20 bg-white px-3 py-1 text-xs sm:text-sm text-primary">
-          Campaign 2026 • Murang’a University
+          Campaigns 2026 • Murang’a University
         </div>
 
         {/* Headline */}
@@ -62,7 +73,7 @@ const Gang = () => {
 
           <p className="text-sm sm:text-lg text-gray-700">
             Transparent leadership, student-first services, and a team that shows up.
-            Meet our delegates and see what we’re changing this year.
+      
           </p>
         </div>
 
