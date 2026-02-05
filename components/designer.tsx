@@ -1,16 +1,26 @@
 "use client";
 
 import { Copyright } from "lucide-react";
-import Link from "next/link";
 
 const Designer = () => {
   return (
-    <div className="bg-primary text-white text-sm md:text-base flex gap-3 items-center justify-center">
-        <Copyright size={15} />
-        <p>2026 UCA</p>
-        <p className="text-xs">Site developed by: <Link className="hover:text-[whitesmoke] transition text-gray-400" href="https://www.linkedin.com/in/nicholus-kiriinya-nkonge-data-scientist/">KLAUS</Link></p>
-    </div>
-  )
-}
+    <div className="bg-primary text-white text-sm md:text-base flex items-center justify-center gap-3 py-2 px-4">
+      <Copyright size={15} className="shrink-0" />
+      <p className="whitespace-nowrap">2026 UCA</p>
 
-export default Designer
+      <p className="text-xs text-white/90">
+        Developer:{" "}
+        <a
+          className="text-gray-200 hover:text-white underline underline-offset-4 transition"
+          href="https://portfolio-klaus.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Klaus
+        </a>
+      </p>
+    </div>
+  );
+};
+
+export default Designer;
