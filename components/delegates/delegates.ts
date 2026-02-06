@@ -379,11 +379,16 @@ const delegateItems = [
         school: "Education",
         name: "James",
     },
-    // {
-    //     image: "khadijaCivil.png",
-    //     school: "Engineering and Technology",
-    //     name: "Khadija",
-    // },
+    {
+        image: "yusssufENG.png",
+        school: "Engineering and Technology",
+        name: "Yussuf",
+    },
+    {
+        image: "libanHRM.png",
+        school: "Business and Economics",
+        name: "Liban",
+    },
     {
         image: "maylenHOS.png",
         school: "Hospitality and Tourism Management",
