@@ -380,7 +380,7 @@ const delegateItems = [
         name: "James",
     },
     {
-        image: "yusssufENG.png",
+        image: "yussufENG.png",
         school: "Engineering and Technology",
         name: "Yussuf",
     },
